@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Stem -->
+  <line x1="50" y1="72" x2="50" y2="38" stroke="#000000" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Left leaf -->
+  <path d="M50 58 C42 46 24 46 22 34 C34 30 48 42 50 56 Z" fill="#000000" />
+
+  <!-- Right leaf -->
+  <path d="M50 48 C58 36 76 36 78 24 C66 20 52 32 50 46 Z" fill="#000000" />
+
+  <!-- Soil line -->
+  <rect x="22" y="73" width="56" height="6" rx="3" fill="#000000" />
+
+  <!-- Roots -->
+  <line x1="38" y1="79" x2="32" y2="90" stroke="#000000" stroke-width="4" stroke-linecap="round" />
+  <line x1="50" y1="79" x2="50" y2="92" stroke="#000000" stroke-width="4" stroke-linecap="round" />
+  <line x1="62" y1="79" x2="68" y2="90" stroke="#000000" stroke-width="4" stroke-linecap="round" />
+</svg>

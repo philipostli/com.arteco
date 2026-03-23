@@ -1,0 +1,23 @@
+# Homey
+/env.json
+/.homeybuild/
+/.homey/
+
+# Dependencies
+/node_modules/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db

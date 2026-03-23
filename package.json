@@ -1,0 +1,24 @@
+{
+  "name": "com.arteco",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx --no-install tsc",
+    "lint": "npx --no-install eslint --ext .js,.ts --ignore-path .gitignore --ignore-pattern \"types/**\" --ignore-pattern \".homeybuild/**\" .",
+    "test": "npm run build && node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">= 22"
+  },
+  "dependencies": {
+    "homey-zigbeedriver": "^2.2.1",
+    "zigbee-clusters": "^2.1.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.5",
+    "@types/homey": "npm:homey-apps-sdk-v3-types@^0.3.12",
+    "@types/node": "^25.0.3",
+    "eslint": "^7.32.0",
+    "eslint-config-athom": "^3.1.5",
+    "typescript": "^5.9.3"
+  }
+}

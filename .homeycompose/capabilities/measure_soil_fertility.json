@@ -1,0 +1,17 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Soil Fertility",
+    "no": "Jordgjødsling"
+  },
+  "icon": "/assets/measure_soil_fertility.svg",
+  "getable": true,
+  "setable": false,
+  "insights": true,
+  "units": {
+    "en": "µS/cm",
+    "no": "µS/cm"
+  },
+  "min": 0,
+  "max": 2000
+}

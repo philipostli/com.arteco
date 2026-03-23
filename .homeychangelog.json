@@ -1,0 +1,5 @@
+{
+  "1.0.0": {
+    "en": "Initial release with support for ZS-301Z Soil Sensor. Features soil moisture, soil fertility, temperature, humidity, illuminance, battery level, and water shortage alarm."
+  }
+}
